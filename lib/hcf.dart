@@ -13,7 +13,7 @@ int getHcf([int? num1, int? num2]) {
 
   final List<int> n1Factors = [];
   final List<int> n2Factors = [];
-  int hcf = 0;
+  int hcf = 1;
   // late int hcf;
 
   for (var i = 1; i < n1 + 1; i++) {
