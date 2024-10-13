@@ -5,6 +5,7 @@ import 'package:problem_solving/convert_dec_bin.dart';
 import 'package:problem_solving/decode_ascii.dart' as decode;
 import 'package:problem_solving/factorial.dart';
 import 'package:problem_solving/fizz_buzz.dart';
+import 'package:problem_solving/format_time.dart';
 import 'package:problem_solving/lcm.dart';
 import 'package:problem_solving/min_length.dart'
     show peopleMonstersGroup, minLen;
@@ -42,6 +43,9 @@ void main(/* List<String> arguments */) {
 
     // Calculate the factorial of an integer number
     print('The factorial of the number: ${factorial()}');
+
+    // Format time from 24-hour to 12-hour
+    FormatTime.formatTime();
   } catch (e) {
     print('Caught error: $e');
     // } finally {
